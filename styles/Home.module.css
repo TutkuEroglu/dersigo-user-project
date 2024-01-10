@@ -1,0 +1,202 @@
+.PageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.postContainer {
+  width: 500px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profilePictureWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.postOwner {
+  cursor: pointer;
+}
+
+.postInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.postInfo a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.postInfo a:hover {
+  color: #236cf1;
+  text-decoration: underline;
+}
+
+.postText {
+  font-size: 14px;
+}
+
+.postDate {
+  margin: 0;
+  font-size: 12px;
+}
+
+.postImage {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.postImageWrapper {
+  position: relative;
+  margin-bottom: 10px;
+  width: 470px;
+  height: 450px;
+}
+
+.postTags {
+  margin-bottom: 10px;
+}
+
+.tag {
+  text-decoration: underline;
+  color: #236cf1;
+  font-size: 13px;
+}
+
+.tag:not(:first-child) {
+  margin-left: 5px;
+}
+
+.likeSection {
+  display: flex;
+  align-items: center;
+  color: #4caf50;
+  font-size: 12px;
+}
+
+.likeIcon {
+  margin-right: 5px;
+}
+
+.likeNumber {
+  margin-top: 5px;
+}
+
+.profileContainer {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profilePictureHeaderWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.profileHeaderPicture {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profileInfoHeader {
+  text-align: left;
+}
+
+.profileInfoHeader h1 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.profileInfoHeader p {
+  margin: 0;
+  color: #555;
+}
+
+.userInfo p {
+  margin: 10px 0;
+}
+
+.userRegisterInfo {
+  color: #555;
+}
+
+.userPosts {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+  margin-top: 40px;
+  padding: 15px 10px;
+  box-sizing: border-box;
+}
+
+.profileSettings {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.profileSettings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dropdownWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.postDropdownWrapper {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 0;
+}
